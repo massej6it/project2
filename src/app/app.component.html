@@ -2,6 +2,10 @@
   <mat-icon>local_fire_department</mat-icon>
   <span>  Jarno's projectje</span>
 </mat-toolbar>
+<div class="content-wrapper">
+  <button (click)="newTask()" mat-button>
+    <mat-icon>add</mat-icon> Add Task
+</button>
 <div class="container-wrapper">
   <div class="container">
     <h2>Backlog</h2>
@@ -50,4 +54,5 @@
       <app-task (edit)="editTask('done', $event)" *ngFor="let task of done" cdkDrag [task]="task"></app-task>
     </mat-card>
   </div>
+</div>
 </div>
