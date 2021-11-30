@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanbanfire-b17a9": {
+      "hosting": {
+        "project2": [
+          "kanbanfire-b17a9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanbanfire-b17a9"
+  }
+}
